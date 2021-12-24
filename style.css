@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Permanent+Marker&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #30336b;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #182C61;
+    border-radius: 10px;
+    box-shadow: 0px 30px 10px black;
+}
+
+.container .nft{
+    position: absolute;
+    width: 280px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px
+}
+
+.container .nft img{
+    margin-top: 15px;
+    border-radius: 20%;
+    box-shadow: 0px 15px 10px black;
+    transition: 1s ease;
+}
+/* NFT IMG HOVER */
+.container .nft img:hover{
+width: 220px;
+height: 220px;
+cursor: pointer;
+}
+
+.aciklama{
+    font-family: 'Patua One', cursive;
+    letter-spacing: 2px;
+    margin-top: 180px;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.aciklama p{
+    margin-top: 8px;
+    color: purple;
+    text-align: center;
+    font-size: 11px;
+    margin-left: 16px;
+}
+
+#ethereum{
+    position: absolute;
+    width: 90px;
+    top:350px;
+    right:180px;
+    color: cyan;
+    font-size: 15px;
+}
+p{
+    display: inline;
+    font-size: 12px;
+    font-family: 'Patua One', cursive;
+}
+
+.info{
+    position: absolute;
+    top: 350px;
+    right: 20px;
+    color: whitesmoke;
+}
+hr{
+    position: absolute;
+    top:380px;
+    border: 1px solid black;
+}
+
+.yaratici{
+    position: absolute;
+}
+.yaratici img{
+    position: absolute;
+    border-radius: 90px;
+    width: 25px;
+    border: 1px solid white;
+    top:165px;
+    right: 110px;
+}
+.yaraticiText{
+    position: absolute;
+    bottom:40px;
+    left: 45px;
+}
+#yaraticiText{
+    font-size: 15px;
+}
+.satinAl{
+    position: absolute;
+    bottom: 20px;
+    color: greenyellow;
+}
+.cizgi{
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
